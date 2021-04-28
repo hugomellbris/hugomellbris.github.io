@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   line-height: 1;
   font-weight: 700;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins";
 }
 
 #header h1 a, #header h1 a:hover {
