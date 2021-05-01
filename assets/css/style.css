@@ -1164,3 +1164,13 @@ section .container {
 .credits a:hover {
   color: #fff;
 }
+
+@media (max-width: 767px) {
+  #header h2 span {
+    padding-bottom: 2px;
+  }
+  #header h2 {
+    text-align: center;
+  }
+}
+
