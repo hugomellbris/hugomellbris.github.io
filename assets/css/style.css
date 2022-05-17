@@ -45,7 +45,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open sans", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -986,7 +986,7 @@ section .container {
 
 .contact .info-box h3 {
   font-size: 20px;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgb(255, 255, 255);
   font-weight: 700;
   margin: 10px 0 8px 68px;
 }
