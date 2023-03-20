@@ -1,0 +1,64 @@
+/*======================================
+    Call To Action CSS
+========================================*/
+.call-action {
+    background-color: $theme-color;
+
+    .cta-content {
+        text-align: center;
+        padding: 0px 50px;
+
+        @media #{$md} {
+            padding: 0;
+        }
+
+        @media #{$xs} {
+            padding: 0;
+        }
+
+        h2 {
+            color: $white;
+            line-height: 50px;
+            font-size: 38px;
+            font-weight: 700;
+            margin-bottom: 30px;
+
+            @media #{$md} {
+                font-size: 32px;
+                line-height: 45px;
+            }
+
+            @media #{$xs} {
+                font-size: 25px;
+                line-height: 35px;
+            }
+        }
+
+        p {
+            color: $white;
+            padding: 0px 50px;
+
+            @media #{$md} {
+                padding: 0;
+            }
+
+            @media #{$xs} {
+                padding: 0;
+            }
+        }
+
+        .button {
+            margin-top: 40px;
+
+            .btn {
+                background-color: $white;
+                color: $theme-color;
+
+                &:hover {
+                    color: $white;
+                    background-color: $black;
+                }
+            }
+        }
+    }
+}

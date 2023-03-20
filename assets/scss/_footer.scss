@@ -1,0 +1,301 @@
+/*======================================
+	Footer CSS
+========================================*/
+.footer {
+    background-color: $black;
+    position: relative;
+
+    .footer-top {
+        padding: 100px 0;
+
+        @media #{$md} {
+            padding: 80px 0;
+            padding-top: 40px;
+        }
+
+        @media #{$xs} {
+            padding: 60px 0;
+            padding-top: 20px;
+        }
+    }
+
+    .single-footer {
+        @media #{$md} {
+            margin-top: 40px;
+        }
+
+        @media #{$xs} {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        &.f-about {
+            padding-right: 30px;
+
+            @media #{$xs} {
+                padding: 0;
+            }
+
+            .logo {
+                img {
+                    width: 180px;
+                }
+            }
+
+            p {
+                color: #D2D6DC;
+                margin-top: 20px;
+                font-size: 14px;
+            }
+
+            .social {
+                margin-top: 30px;
+
+                li {
+                    display: inline-block;
+                    margin-right: 17px;
+
+                    @media #{$md} {
+                        margin-bottom: 10px;
+                    }
+
+                    @media #{$xs} {
+                        margin-bottom: 10px;
+                    }
+
+                    &:last-child {
+                        margin: 0;
+                    }
+
+                    a {
+                        color: #D2D6DC;
+                        font-size: 15px;
+
+                        &:hover {
+                            color: $theme-color;
+                        }
+                    }
+
+                    &:last-child {
+                        margin: 0;
+                    }
+                }
+            }
+
+            .copyright-text {
+                color: #D2D6DC;
+                font-size: 14px;
+                margin-top: 40px;
+
+                @media #{$xs} {
+                    margin-top: 20px;
+                }
+
+                a {
+                    color: #D2D6DC;
+
+                    &:hover {
+                        color: $theme-color;
+                    }
+                }
+            }
+        }
+
+        &.f-link {
+            li {
+                display: block;
+                margin-bottom: 12px;
+
+                &:last-child {
+                    margin: 0;
+                }
+
+                a {
+                    font-size: 15px;
+                    font-weight: 400;
+                    color: #D2D6DC;
+
+                    &:hover {
+                        color: $theme-color;
+                    }
+                }
+            }
+        }
+
+        h3 {
+            font-size: 18px;
+            font-weight: 600;
+            display: block;
+            margin-bottom: 35px;
+            color: #D2D6DC;
+
+            @media #{$md} {
+                margin-bottom: 25px;
+            }
+
+            @media #{$xs} {
+                margin-bottom: 25px;
+            }
+        }
+    }
+
+    .footer-newsletter {
+        padding-bottom: 100px;
+
+        @media #{$md} {
+            padding-bottom: 80px;
+        }
+
+        @media #{$xs} {
+            padding-bottom: 60px;
+            text-align: center;
+        }
+
+        .inner-content {
+            border: 2px solid rgba(238, 238, 238, 0.171);
+            padding: 50px;
+            border-radius: 8px;
+
+            @media #{$md} {
+                padding: 30px;
+            }
+
+            @media #{$xs} {
+                padding: 30px;
+            }
+        }
+
+        .title {
+            position: relative;
+
+            h3 {
+                color: #D2D6DC;
+                font-size: 18px;
+                display: block;
+                margin-bottom: 10px;
+                font-weight: 600;
+                text-transform: capitalize;
+
+                @media #{$md} {
+                    font-size: 16px;
+                }
+
+                @media #{$xs} {
+                    font-size: 16px;
+                }
+            }
+
+            p {
+                font-size: 15px;
+                color: #D2D6DC;
+
+                @media #{$md} {
+                    font-size: 14px;
+                }
+
+                @media #{$xs} {
+                    font-size: 14px;
+                }
+
+                a {
+                    color: $theme-color;
+                    text-decoration: underline;
+
+                    &:hover {
+                        color: $white;
+                    }
+                }
+            }
+        }
+
+        .newsletter-form {
+            position: relative;
+
+            @media #{$xs} {
+                margin-top: 30px;
+            }
+
+            input {
+                height: 48px;
+                width: 300px;
+                display: inline-block;
+                background: transparent;
+                border: none;
+                color: #fff;
+                border-radius: 0;
+                padding: 0 20px;
+                color: #fff !important;
+                font-size: 14px;
+                background-color: #fff3;
+                border-radius: 5px;
+                float: right;
+                margin-right: 148px;
+
+                @media #{$md} {
+                    width: 100%;
+                    margin: 0;
+                    padding-right: 144px;
+                }
+
+                @media #{$xs} {
+                    width: 100%;
+                    margin: 0;
+                    text-align: center;
+                }
+            }
+
+            ::placeholder {
+                /* Chrome, Firefox, Opera, Safari 10.1+ */
+                color: $white;
+                opacity: 1;
+                /* Firefox */
+            }
+
+            :-ms-input-placeholder {
+                /* Internet Explorer 10-11 */
+                color: $white;
+            }
+
+            ::-ms-input-placeholder {
+                /* Microsoft Edge */
+                color: $white;
+            }
+
+            .button {
+                display: inline-block;
+                position: absolute;
+                right: 0;
+
+                @media #{$xs} {
+                    position: relative;
+                    margin-top: 10px;
+                    left: 0;
+                    bottom: 0;
+                    width: 100%;
+
+                    .btn {
+                        width: 100%;
+                    }
+                }
+
+                .btn {
+                    display: inline-block;
+                    background: $theme-color;
+                    color: $white;
+                    height: 48px;
+                    line-height: 48px;
+                    padding: 0 30px;
+
+                    &::before {
+                        background-color: $white;
+                    }
+
+                    &:hover {
+                        color: $theme-color;
+                        background-color: $white;
+                    }
+                }
+            }
+        }
+    }
+}

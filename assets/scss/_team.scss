@@ -1,0 +1,85 @@
+/*======================================
+    Team CSS
+========================================*/
+.team {
+    .section-title {
+        margin-bottom: 50px;
+        @media #{$md, $xs}{
+            margin-bottom: 30px;
+        }
+    }
+
+    .single-team {
+        border-radius: 10px;
+        overflow: hidden;
+        margin-top: 30px;
+        transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+
+        &:hover {
+            &:hover {
+                box-shadow: 0px 3px 5px #00000017;
+                transform: translateY(-5px);
+            }
+        }
+
+        .image {
+            img {
+                width: 100%;
+            }
+        }
+
+        .content {
+            padding:25px 30px 30px 30px;
+            border: 1px solid #eee;
+            border-radius: 0 0 10px 10px;
+        }
+
+        .text {
+            h3 {
+                a {
+                    font-size: 17px;
+                    font-weight: 600;
+                    color: $black;
+                }
+            }
+
+            h5 {
+                font-size: 14px;
+                font-weight: 400;
+                color: $theme-color;
+                display: block;
+                margin-top: 4px;
+            }
+            @media #{$md, $xs}{
+                text-align: center;
+            }
+        }
+
+        .social {
+            display: inline-block;
+            float: right;
+
+            li {
+                display: inline-block;
+                margin-right: 10px;
+
+                &:last-child {
+                    margin: 0;
+                }
+                a{
+                    color: #666;
+                    &:hover{
+                        color: $theme-color;
+                    }
+                }
+            }
+            @media #{$md, $xs}{
+                float: none;
+                display: block;
+                margin-top: 20px;
+                text-align: center;
+            }
+        }
+    }
+
+}
