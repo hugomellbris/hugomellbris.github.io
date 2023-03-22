@@ -1038,14 +1038,14 @@ ol {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .section {
-    padding-top: 60px;
+    padding-top: 200px;
     padding-bottom: 60px;
   }
 }
 
 @media (max-width: 767px) {
   .section {
-    padding-top: 50px;
+    padding-top: 200px;
     padding-bottom: 50px;
   }
 }
@@ -1439,7 +1439,7 @@ ol {
     padding: 18px 0 !important;
   }
   .header .mobile-menu-btn .toggler-icon {
-    background-color: #fff;
+    background-color: #242424;
   }
   .header .button {
     margin: 0 !important;
@@ -1536,7 +1536,7 @@ ol {
     padding: 18px 0 !important;
   }
   .header .mobile-menu-btn .toggler-icon {
-    background-color: #fff;
+    background-color: #242424;
   }
   .header .navbar-collapse {
     position: absolute;
@@ -3191,7 +3191,7 @@ ol {
 
 @media (max-width: 767px) {
   .blog-single .post-title {
-    line-height: 26px;
+    line-height: auto;
   }
 }
 
