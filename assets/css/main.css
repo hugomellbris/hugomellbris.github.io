@@ -75,6 +75,7 @@ button:focus,
 
 select {
   -webkit-writing-mode: horizontal-tb !important;
+  writing-mode: horizontal-tb !important;
   text-rendering: auto;
   color: #081828;
   letter-spacing: normal;
@@ -2045,7 +2046,6 @@ ol {
   color: #242424;
   text-shadow: 0px 3px 8px #00000017;
   text-transform: capitalize;
-  text-align: ;
 }
 
 .hero-area .hero-content h1 span {
@@ -2064,7 +2064,6 @@ ol {
 
 .hero-area .hero-content .button .btn {
   background-color: #242424;
-  color: ;
   margin-right: 12px;
 }
 
@@ -3919,7 +3918,7 @@ blockquote span {
 
 .team .single-team .social {
   display: inline-block;
-  float: right;
+  float: none;
 }
 
 .team .single-team .social li {
@@ -4756,7 +4755,7 @@ blockquote span {
   font-size: 14px;
   background-color: #fff3;
   border-radius: 5px;
-  float: right;
+  float: none;
   margin-right: 148px;
 }
 
